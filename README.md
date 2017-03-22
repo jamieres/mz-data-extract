@@ -13,7 +13,7 @@ Just testing under Ubuntu 16.04
 First, remember run the command sudo apt-get update for update the operating system and then install following packages:
 
 PEfile
-For install PEfile (Python PE parsing module) you can be downloaded it from https://github.com/erocarrera/pefile or run the following command sudo apt-get install python-pefile.
+For install PEfile (Python PE parsing module) you can be downloaded it from https://github.com/erocarrera/pefile or run the following command sudo apt-get install python-pefile. Thanks Ero for this great resource! :)
 
 SSDeep
 For install SSDeep you can download the package from http://ssdeep.sourceforge.net/ or run following command sudo apt-get install ssdeep.
