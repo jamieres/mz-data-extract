@@ -5,8 +5,7 @@ The fisrt version (0.1) was released in September 24, 2016 by Jorge (Pistus) Mie
 
 Usage syntaxis is: ./mzde.py [filepath]
 
-##### Testing #####
-Ubuntu 16.04
+Just testing under Ubuntu 16.04
 
 ## *** This tool was written for internal and personal use. Please use the tool at your own risk.
 
