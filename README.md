@@ -8,22 +8,22 @@ Usage syntaxis is: ./mzde.py [filepath]
 ##### Testing #####
 Ubuntu 16.04
 
-*** This tool was written for internal and personal use. Please use the tool at your own risk.
+## *** This tool was written for internal and personal use. Please use the tool at your own risk.
 
 ##### Requires #####
 First, remember run the command sudo apt-get update for update the operating system and then install following packages:
 
-## PEfile => 
+PEfile
 For install PEfile (Python PE parsing module) you can be downloaded it from https://github.com/erocarrera/pefile or run the following command sudo apt-get install python-pefile.
 
-## SSDeep
+SSDeep
 For install SSDeep you can download the package from http://ssdeep.sourceforge.net/ or run following command sudo apt-get install ssdeep.
 
-## Bitstring
+Bitstring
 For install Bitstrings you can download it from https://github.com/scott-griffiths/bitstring or run the command sudo apt-get install python-bitstring.
 
-## argparser
+argparser
 Download it from https://code.google.com/archive/p/argparse/ or run the command sudo apt-get install python-argparse
 
-## colorama
+colorama
 Download it from https://pypi.python.org/pypi/colorama/ or run the command sudo apt-get install python-colorama.
