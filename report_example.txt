@@ -1,0 +1,536 @@
+
+### File Characterization
+-------------------------
+  Filename: Cobranca_AMIL_PDF.cpl
+  Filepath: /home/rschintel/Downloads/malc0de/Cobranca_AMIL_PDF.cpl
+  Filesize: 652288 bytes (0.622 Megabytes)
+  Mimetype: application/x-dosexec
+
+  Filetype: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+
+  DLL file (Dynamic-Link Library):  True
+  EXE file (Executable):  False
+  SYS file (System):  False
+
+  ## Manipulation Data
+  Last Modified: 01.03.2012 [03:50:14 PM]   Tue Jan  3 15:50:14 2012
+  Last Accessed: 03.21.2017 [09:32:36 PM]   Tue Mar 21 21:32:36 2017
+  Creation Time: 11.11.2016 [09:18:21 AM]   Fri Nov 11 09:18:21 2016
+
+  ## Fingerprint Information
+  MD5: dba4cc389b9ec48a592602282c8024c0
+  Sha1: 68314680dfb757487af7dc1bbd61359df5aadc4a
+  Sha256: 09851978f3645e1c73fffbb8a0ac94bf8d820b14ca27f0a476b9368d9d65d89a
+  Sha512: 862de90da5c98c4aacbaf523beda4a1a363b0ab7c919356b72593d97145ee81a45ad6af65c3e4999deac065d95350139217bd6808330640300b5af001f22a2b7
+
+    # Fuzzy-Hash Algorithm
+    SSDeep: 12288:YyFE7GBIodjPouHOvAT+amTOZ+7cna6h0hBz0SyeIi41fnwwS:V8MjPouuvATfmTg+7B6h0/zieIi4P
+    peHASH: 1b97e691cd94f559bcca2ef4a43f5b52b35859f1272ef7062a0520e31af06a2e
+    TotalHASH: 67fac7e497d7476a52df99f58dc07f2b95141e93
+
+  ## Header & Packing Technique
+  Signature: MZ
+  Packer/Compiler: [['Borland Delphi 3.0 (???)'], ['Borland Delphi 4.0'], ['Borland Delphi v3.0']]
+
+
+### Advanced Information for Intel
+----------------------------------
+  TimeStamp: 2014-04-11 11:15:03
+  EntryPoint: 0x85abc
+  EntryPoint Address: 0x0485abc
+
+  ## Properties Information
+  LegalCopyright: Macromedia
+  InternalName: Macromedia
+  FileVersion: 2.1.4567.3
+  CompanyName: Macromedia
+  LegalTrademarks: Macromedia
+  Comments: Macromedia
+  ProductName: Macromedia
+  ProductVersion: 1.0.0.9
+  FileDescription: Acrobalt
+  OriginalFilename: Macromedia
+
+
+  ## URL Information
+  http://dekafotos01.url.ph/index.php
+  http://bit.ly/segunda2612
+
+
+  ## Embedded File Information
+  IdGlobal.pas
+  IdCoder3to4.pas
+  Macromedia.cpl
+  index.php
+  rundll32.exe
+  Macromedia.cpl
+  Macromedia.cpl
+  into.txt
+  atp1p2.cpl
+
+
+### Advanced Technical Information
+----------------------------------
+  ## Anti-Debugging Techniques Founded
+  0x48f804 GetTickCount
+  0x48f808 QueryPerformanceCounter
+  0x48f86c UnhandledExceptionFilter
+  0x48f86c UnhandledExceptionFilter
+  0x48f9d4 GetWindowThreadProcessId
+  0x48fa90 FindWindowA
+  0x48fc6c QueryPerformanceCounter
+  0x48fcac GetTickCount
+  0x48fccc GetLocalTime
+  0x48fd3c CloseHandle
+
+  ## Anti-VirtualMachine Tricks Founded
+
+  ## DLL Hooking Strings Founded
+
+  ## Kernel Driver Check Founded
+
+  ## Anti-AV Tricks Founded
+
+
+  ## Sections Information
+	============================================================================================================
+	Section	   VirtualAddress	VirtualSize	SizeofRawData	Characteristics	  Suspicious
+	============================================================================================================
+	.text   	   0x1000		0x83cd8		540160		0x60000020	  
+	MD5: 90b0a6058d9f741d6e7c7f263618cee3
+	.itext  	   0x85000		0xb04		3072		0x60000020	  
+	MD5: 1c4800d9673b8dd0ff20ed82b4fd9715
+	.data   	   0x86000		0x2c90		11776		0xc0000040	  
+	MD5: 7b1fb5d41f02ab78fff7cc98e2907d24
+	.bss    	   0x89000		0x5c40		0		0xc0000000	  Possible Malicious Action
+	MD5: d41d8cd98f00b204e9800998ecf8427e
+	.idata  	   0x8f000		0x28f2		10752		0xc0000040	  
+	MD5: 925d8be2ce647de624aed1f168aa3b37
+	.edata  	   0x92000		0x47		512		0x40000040	  Possible Malicious Action
+	MD5: b04a3d73c365a994282785fc2eb6c351
+	.reloc  	   0x93000		0x9fc8		40960		0x42000040	  
+	MD5: 57b1f50f8a7e707884714563d3a149d0
+	.rsrc   	   0x9d000		0xac00		44032		0x40000040	  
+	MD5: 0f5d10149e7f5f543839a8fca17f0c5b
+	============================================================================================================
+
+
+  ## Import Address Table
+     oleaut32.dll
+	0x48f7bc SysFreeString
+	0x48f7c0 SysReAllocStringLen
+	0x48f7c4 SysAllocStringLen
+     advapi32.dll
+	0x48f7cc RegQueryValueExA
+	0x48f7d0 RegOpenKeyExA
+	0x48f7d4 RegCloseKey
+     user32.dll
+	0x48f7dc GetKeyboardType
+	0x48f7e0 DestroyWindow
+	0x48f7e4 LoadStringA
+	0x48f7e8 MessageBoxA
+	0x48f7ec CharNextA
+     kernel32.dll
+	0x48f7f4 GetACP
+	0x48f7f8 Sleep
+	0x48f7fc VirtualFree
+	0x48f800 VirtualAlloc
+	0x48f804 GetTickCount
+	0x48f808 QueryPerformanceCounter
+	0x48f80c GetCurrentThreadId
+	0x48f810 InterlockedDecrement
+	0x48f814 InterlockedIncrement
+	0x48f818 VirtualQuery
+	0x48f81c WideCharToMultiByte
+	0x48f820 MultiByteToWideChar
+	0x48f824 lstrlenA
+	0x48f828 lstrcpynA
+	0x48f82c LoadLibraryExA
+	0x48f830 GetThreadLocale
+	0x48f834 GetStartupInfoA
+	0x48f838 GetProcAddress
+	0x48f83c GetModuleHandleA
+	0x48f840 GetModuleFileNameA
+	0x48f844 GetLocaleInfoA
+	0x48f848 GetCommandLineA
+	0x48f84c FreeLibrary
+	0x48f850 FindFirstFileA
+	0x48f854 FindClose
+	0x48f858 ExitProcess
+	0x48f85c ExitThread
+	0x48f860 CreateThread
+	0x48f864 CompareStringA
+	0x48f868 WriteFile
+	0x48f86c UnhandledExceptionFilter
+	0x48f870 RtlUnwind
+	0x48f874 RaiseException
+	0x48f878 GetStdHandle
+     kernel32.dll
+	0x48f880 TlsSetValue
+	0x48f884 TlsGetValue
+	0x48f888 TlsFree
+	0x48f88c TlsAlloc
+	0x48f890 LocalFree
+	0x48f894 LocalAlloc
+     user32.dll
+	0x48f89c CreateWindowExA
+	0x48f8a0 WindowFromPoint
+	0x48f8a4 WaitMessage
+	0x48f8a8 UpdateWindow
+	0x48f8ac UnregisterClassA
+	0x48f8b0 UnhookWindowsHookEx
+	0x48f8b4 TranslateMessage
+	0x48f8b8 TranslateMDISysAccel
+	0x48f8bc TrackPopupMenu
+	0x48f8c0 SystemParametersInfoA
+	0x48f8c4 ShowWindow
+	0x48f8c8 ShowScrollBar
+	0x48f8cc ShowOwnedPopups
+	0x48f8d0 SetWindowsHookExA
+	0x48f8d4 SetWindowTextA
+	0x48f8d8 SetWindowPos
+	0x48f8dc SetWindowPlacement
+	0x48f8e0 SetWindowLongW
+	0x48f8e4 SetWindowLongA
+	0x48f8e8 SetTimer
+	0x48f8ec SetScrollRange
+	0x48f8f0 SetScrollPos
+	0x48f8f4 SetScrollInfo
+	0x48f8f8 SetRect
+	0x48f8fc SetPropA
+	0x48f900 SetParent
+	0x48f904 SetMenuItemInfoA
+	0x48f908 SetMenu
+	0x48f90c SetForegroundWindow
+	0x48f910 SetFocus
+	0x48f914 SetCursor
+	0x48f918 SetClassLongA
+	0x48f91c SetCapture
+	0x48f920 SetActiveWindow
+	0x48f924 SendMessageW
+	0x48f928 SendMessageA
+	0x48f92c ScrollWindow
+	0x48f930 ScreenToClient
+	0x48f934 RemovePropA
+	0x48f938 RemoveMenu
+	0x48f93c ReleaseDC
+	0x48f940 ReleaseCapture
+	0x48f944 RegisterWindowMessageA
+	0x48f948 RegisterClipboardFormatA
+	0x48f94c RegisterClassA
+	0x48f950 RedrawWindow
+	0x48f954 PtInRect
+	0x48f958 PostQuitMessage
+	0x48f95c PostMessageA
+	0x48f960 PeekMessageW
+	0x48f964 PeekMessageA
+	0x48f968 OffsetRect
+	0x48f96c OemToCharA
+	0x48f970 MsgWaitForMultipleObjects
+	0x48f974 MessageBoxA
+	0x48f978 MapWindowPoints
+	0x48f97c MapVirtualKeyA
+	0x48f980 LoadStringA
+	0x48f984 LoadKeyboardLayoutA
+	0x48f988 LoadIconA
+	0x48f98c LoadCursorA
+	0x48f990 LoadBitmapA
+	0x48f994 KillTimer
+	0x48f998 IsZoomed
+	0x48f99c IsWindowVisible
+	0x48f9a0 IsWindowUnicode
+	0x48f9a4 IsWindowEnabled
+	0x48f9a8 IsWindow
+	0x48f9ac IsRectEmpty
+	0x48f9b0 IsIconic
+	0x48f9b4 IsDialogMessageW
+	0x48f9b8 IsDialogMessageA
+	0x48f9bc IsChild
+	0x48f9c0 InvalidateRect
+	0x48f9c4 IntersectRect
+	0x48f9c8 InsertMenuItemA
+	0x48f9cc InsertMenuA
+	0x48f9d0 InflateRect
+	0x48f9d4 GetWindowThreadProcessId
+	0x48f9d8 GetWindowTextA
+	0x48f9dc GetWindowRect
+	0x48f9e0 GetWindowPlacement
+	0x48f9e4 GetWindowLongW
+	0x48f9e8 GetWindowLongA
+	0x48f9ec GetWindowDC
+	0x48f9f0 GetTopWindow
+	0x48f9f4 GetSystemMetrics
+	0x48f9f8 GetSystemMenu
+	0x48f9fc GetSysColorBrush
+	0x48fa00 GetSysColor
+	0x48fa04 GetSubMenu
+	0x48fa08 GetScrollRange
+	0x48fa0c GetScrollPos
+	0x48fa10 GetScrollInfo
+	0x48fa14 GetPropA
+	0x48fa18 GetParent
+	0x48fa1c GetWindow
+	0x48fa20 GetMessagePos
+	0x48fa24 GetMenuStringA
+	0x48fa28 GetMenuState
+	0x48fa2c GetMenuItemInfoA
+	0x48fa30 GetMenuItemID
+	0x48fa34 GetMenuItemCount
+	0x48fa38 GetMenu
+	0x48fa3c GetLastActivePopup
+	0x48fa40 GetKeyboardState
+	0x48fa44 GetKeyboardLayoutNameA
+	0x48fa48 GetKeyboardLayoutList
+	0x48fa4c GetKeyboardLayout
+	0x48fa50 GetKeyState
+	0x48fa54 GetKeyNameTextA
+	0x48fa58 GetIconInfo
+	0x48fa5c GetForegroundWindow
+	0x48fa60 GetFocus
+	0x48fa64 GetDesktopWindow
+	0x48fa68 GetDCEx
+	0x48fa6c GetDC
+	0x48fa70 GetCursorPos
+	0x48fa74 GetCursor
+	0x48fa78 GetClientRect
+	0x48fa7c GetClassLongA
+	0x48fa80 GetClassInfoA
+	0x48fa84 GetCapture
+	0x48fa88 GetActiveWindow
+	0x48fa8c FrameRect
+	0x48fa90 FindWindowA
+	0x48fa94 FillRect
+	0x48fa98 EqualRect
+	0x48fa9c EnumWindows
+	0x48faa0 EnumThreadWindows
+	0x48faa4 EnumChildWindows
+	0x48faa8 EndPaint
+	0x48faac EnableWindow
+	0x48fab0 EnableScrollBar
+	0x48fab4 EnableMenuItem
+	0x48fab8 DrawTextA
+	0x48fabc DrawMenuBar
+	0x48fac0 DrawIconEx
+	0x48fac4 DrawIcon
+	0x48fac8 DrawFrameControl
+	0x48facc DrawEdge
+	0x48fad0 DispatchMessageW
+	0x48fad4 DispatchMessageA
+	0x48fad8 DestroyWindow
+	0x48fadc DestroyMenu
+	0x48fae0 DestroyIcon
+	0x48fae4 DestroyCursor
+	0x48fae8 DeleteMenu
+	0x48faec DefWindowProcA
+	0x48faf0 DefMDIChildProcA
+	0x48faf4 DefFrameProcA
+	0x48faf8 CreatePopupMenu
+	0x48fafc CreateMenu
+	0x48fb00 CreateIcon
+	0x48fb04 ClientToScreen
+	0x48fb08 CheckMenuItem
+	0x48fb0c CallWindowProcA
+	0x48fb10 CallNextHookEx
+	0x48fb14 BeginPaint
+	0x48fb18 CharNextA
+	0x48fb1c CharLowerA
+	0x48fb20 CharUpperBuffA
+	0x48fb24 CharToOemA
+	0x48fb28 AdjustWindowRectEx
+	0x48fb2c ActivateKeyboardLayout
+     gdi32.dll
+	0x48fb34 UnrealizeObject
+	0x48fb38 StretchBlt
+	0x48fb3c SetWindowOrgEx
+	0x48fb40 SetViewportOrgEx
+	0x48fb44 SetTextColor
+	0x48fb48 SetStretchBltMode
+	0x48fb4c SetROP2
+	0x48fb50 SetPixel
+	0x48fb54 SetDIBColorTable
+	0x48fb58 SetBrushOrgEx
+	0x48fb5c SetBkMode
+	0x48fb60 SetBkColor
+	0x48fb64 SelectPalette
+	0x48fb68 SelectObject
+	0x48fb6c SaveDC
+	0x48fb70 RestoreDC
+	0x48fb74 RectVisible
+	0x48fb78 RealizePalette
+	0x48fb7c PatBlt
+	0x48fb80 MoveToEx
+	0x48fb84 MaskBlt
+	0x48fb88 LineTo
+	0x48fb8c IntersectClipRect
+	0x48fb90 GetWindowOrgEx
+	0x48fb94 GetTextMetricsA
+	0x48fb98 GetTextExtentPoint32A
+	0x48fb9c GetSystemPaletteEntries
+	0x48fba0 GetStockObject
+	0x48fba4 GetRgnBox
+	0x48fba8 GetPixel
+	0x48fbac GetPaletteEntries
+	0x48fbb0 GetObjectA
+	0x48fbb4 GetDeviceCaps
+	0x48fbb8 GetDIBits
+	0x48fbbc GetDIBColorTable
+	0x48fbc0 GetDCOrgEx
+	0x48fbc4 GetCurrentPositionEx
+	0x48fbc8 GetClipBox
+	0x48fbcc GetBrushOrgEx
+	0x48fbd0 GetBitmapBits
+	0x48fbd4 ExcludeClipRect
+	0x48fbd8 DeleteObject
+	0x48fbdc DeleteDC
+	0x48fbe0 CreateSolidBrush
+	0x48fbe4 CreatePenIndirect
+	0x48fbe8 CreatePalette
+	0x48fbec CreateHalftonePalette
+	0x48fbf0 CreateFontIndirectA
+	0x48fbf4 CreateDIBitmap
+	0x48fbf8 CreateDIBSection
+	0x48fbfc CreateCompatibleDC
+	0x48fc00 CreateCompatibleBitmap
+	0x48fc04 CreateBrushIndirect
+	0x48fc08 CreateBitmap
+	0x48fc0c BitBlt
+     version.dll
+	0x48fc14 VerQueryValueA
+	0x48fc18 GetFileVersionInfoSizeA
+	0x48fc1c GetFileVersionInfoA
+     kernel32.dll
+	0x48fc24 lstrcpyA
+	0x48fc28 WriteFile
+	0x48fc2c WinExec
+	0x48fc30 WaitForSingleObject
+	0x48fc34 VirtualQuery
+	0x48fc38 VirtualAlloc
+	0x48fc3c Sleep
+	0x48fc40 SizeofResource
+	0x48fc44 SetThreadLocale
+	0x48fc48 SetFilePointer
+	0x48fc4c SetEvent
+	0x48fc50 SetErrorMode
+	0x48fc54 SetEndOfFile
+	0x48fc58 ResumeThread
+	0x48fc5c ResetEvent
+	0x48fc60 ReadFile
+	0x48fc64 RaiseException
+	0x48fc68 QueryPerformanceFrequency
+	0x48fc6c QueryPerformanceCounter
+	0x48fc70 MultiByteToWideChar
+	0x48fc74 MulDiv
+	0x48fc78 MoveFileA
+	0x48fc7c LockResource
+	0x48fc80 LoadResource
+	0x48fc84 LoadLibraryA
+	0x48fc88 LeaveCriticalSection
+	0x48fc8c InitializeCriticalSection
+	0x48fc90 GlobalFindAtomA
+	0x48fc94 GlobalDeleteAtom
+	0x48fc98 GlobalAddAtomA
+	0x48fc9c GetVolumeInformationA
+	0x48fca0 GetVersionExA
+	0x48fca4 GetVersion
+	0x48fca8 GetTimeZoneInformation
+	0x48fcac GetTickCount
+	0x48fcb0 GetThreadLocale
+	0x48fcb4 GetTempPathA
+	0x48fcb8 GetStdHandle
+	0x48fcbc GetProcAddress
+	0x48fcc0 GetModuleHandleA
+	0x48fcc4 GetModuleFileNameA
+	0x48fcc8 GetLocaleInfoA
+	0x48fccc GetLocalTime
+	0x48fcd0 GetLastError
+	0x48fcd4 GetFullPathNameA
+	0x48fcd8 GetFileSize
+	0x48fcdc GetFileAttributesA
+	0x48fce0 GetExitCodeThread
+	0x48fce4 GetDiskFreeSpaceA
+	0x48fce8 GetDateFormatA
+	0x48fcec GetCurrentThreadId
+	0x48fcf0 GetCurrentProcessId
+	0x48fcf4 GetComputerNameA
+	0x48fcf8 GetCPInfo
+	0x48fcfc FreeResource
+	0x48fd00 InterlockedIncrement
+	0x48fd04 InterlockedExchange
+	0x48fd08 InterlockedDecrement
+	0x48fd0c FreeLibrary
+	0x48fd10 FormatMessageA
+	0x48fd14 FindResourceA
+	0x48fd18 FindFirstFileA
+	0x48fd1c FindClose
+	0x48fd20 EnumCalendarInfoA
+	0x48fd24 EnterCriticalSection
+	0x48fd28 DeleteCriticalSection
+	0x48fd2c CreateThread
+	0x48fd30 CreateFileA
+	0x48fd34 CreateEventA
+	0x48fd38 CompareStringA
+	0x48fd3c CloseHandle
+     advapi32.dll
+	0x48fd44 RegSetValueExA
+	0x48fd48 RegQueryValueExA
+	0x48fd4c RegOpenKeyExA
+	0x48fd50 RegFlushKey
+	0x48fd54 RegCreateKeyExA
+	0x48fd58 RegCloseKey
+     oleaut32.dll
+	0x48fd60 GetErrorInfo
+	0x48fd64 SysFreeString
+     ole32.dll
+	0x48fd6c CoUninitialize
+	0x48fd70 CoInitialize
+     kernel32.dll
+	0x48fd78 Sleep
+     oleaut32.dll
+	0x48fd80 SafeArrayPtrOfIndex
+	0x48fd84 SafeArrayGetUBound
+	0x48fd88 SafeArrayGetLBound
+	0x48fd8c SafeArrayCreate
+	0x48fd90 VariantChangeType
+	0x48fd94 VariantCopy
+	0x48fd98 VariantClear
+	0x48fd9c VariantInit
+     comctl32.dll
+	0x48fda4 _TrackMouseEvent
+	0x48fda8 ImageList_SetIconSize
+	0x48fdac ImageList_GetIconSize
+	0x48fdb0 ImageList_Write
+	0x48fdb4 ImageList_Read
+	0x48fdb8 ImageList_DragShowNolock
+	0x48fdbc ImageList_DragMove
+	0x48fdc0 ImageList_DragLeave
+	0x48fdc4 ImageList_DragEnter
+	0x48fdc8 ImageList_EndDrag
+	0x48fdcc ImageList_BeginDrag
+	0x48fdd0 ImageList_Remove
+	0x48fdd4 ImageList_DrawEx
+	0x48fdd8 ImageList_Draw
+	0x48fddc ImageList_GetBkColor
+	0x48fde0 ImageList_SetBkColor
+	0x48fde4 ImageList_Add
+	0x48fde8 ImageList_SetImageCount
+	0x48fdec ImageList_GetImageCount
+	0x48fdf0 ImageList_Destroy
+	0x48fdf4 ImageList_Create
+     URLMON.DLL
+	0x48fdfc URLDownloadToFileA
+     shell32.dll
+	0x48fe04 SHGetSpecialFolderLocation
+	0x48fe08 SHGetPathFromIDListA
+
+
+  ## Export Address Table
+	0x429bdc CPlApplet 1
+
+
+  ## Appended Data (Overlay)
+     ** No data in this section ** 
+
+###############################################################	
+	  MalwareIntelligence	www.malwareint.com
+   Analysis date: Tuesday, November 08, 2016 [04:47:25 AM]
+

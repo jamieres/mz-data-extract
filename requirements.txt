@@ -1,0 +1,6 @@
+pefile
+bitstring
+argparse
+ssdeep
+colorama
+
