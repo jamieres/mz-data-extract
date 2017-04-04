@@ -58,3 +58,39 @@
 => Fixed "Issue #1"!. Show the message 'PE' object has no attribute 'DIRECTORY_ENTRY_EXPORT' in file that no have export dll.
 => Delete "Suspicious API Functions". 
 => Rewrited code structure.
+
+2016/10/30 v1.0.1
+=> Add SSDeep fuzzy-hashing algorithm data.
+=> Add Filetype and Mimetype data (from Linux command-line).
+=> Add Export Address Table data.
+=> Fixed some problems with "IMAGE_FILE_MACHINE" output.
+=> Add "VS_VERSIONINFO" and "VS_FIXEDFILEINFO" in Properties. 
+=> Rewrited code structure
+
+2016/11/03 v1.0.2
+=> Rewrited "properties information" code.
+=> Rewrited "Sections Information" code.
+=> Rewrited "Import Address Table" code.
+=> Add "Suspicious" data in "Sections Information" segment.
+=> Add "Suspicious API Functions" data.
+=> Add "URL Information" data.
+=> Rewrited code structure.
+
+2016/11/06 v1.0.3
+=> Add Overlay Information.
+=> Add "Embedded File Information" data segment.
+=> Add MD5 hash information in each "section name" data of "Sections Information" code segment.
+=> Add AntiDebugging information.
+=> Fixed "Issue #1"!. Show the message 'PE' object has no attribute 'DIRECTORY_ENTRY_EXPORT' in file that no have export dll.
+=> Delete "Suspicious API Functions". 
+=> Rewrited code structure.
+
+2016/11/10 v1.0.4
+=> Rewrited code structure.
+=> Add "Evasion Techniques Information" section with "Anti-Debugging Techniques Founded", "Anti-VirtualMachine Tricks Founded", "DLL Hooking Strings Founded", "Kernel Driver Check Founded" and "Anti-AV Tricks Founded" evasion data.
+=> Delete "Additional properties information" and "Technical Header Information" sections. Maybe I will add it again in future release!
+
+2017/04/03 v1.0.5
+=> Rewrited code structure.
+=> Add ImportHash (via FireEye: https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html)
+=> Rewrited "Embedded File Information" code.
