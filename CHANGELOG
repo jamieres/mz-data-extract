@@ -76,12 +76,13 @@
 => Add "URL Information" data.
 => Rewrited code structure.
 
+
 2016/11/06 v1.0.3
 => Add Overlay Information.
 => Add "Embedded File Information" data segment.
 => Add MD5 hash information in each "section name" data of "Sections Information" code segment.
 => Add AntiDebugging information.
-=> Fixed "Issue #1"!. Show the message 'PE' object has no attribute 'DIRECTORY_ENTRY_EXPORT' in file that no have export dll.
+=> Fixed "Issue show the message 'PE' object has no attribute 'DIRECTORY_ENTRY_EXPORT' in file that no have export dll.
 => Delete "Suspicious API Functions". 
 => Rewrited code structure.
 
@@ -94,3 +95,8 @@
 => Rewrited code structure.
 => Add ImportHash (via FireEye: https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html)
 => Rewrited "Embedded File Information" code.
+
+
+ISSUES:
+=> Error in hex(pe.OPTIONAL_HEADER.BaseOfData) with some DLL files ==>> ea87c516a24127a2c80cdd4dba77192b
+ 
