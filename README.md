@@ -18,6 +18,9 @@ For install PEfile (Python PE parsing module) you can be downloaded it from http
 SSDeep
 For install SSDeep you can download the package from http://ssdeep.sourceforge.net/ or run following command sudo apt-get install ssdeep.
 
+ImportHASH
+Based in FireEye article: https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html
+
 Bitstring
 For install Bitstrings you can download it from https://github.com/scott-griffiths/bitstring or run the command sudo apt-get install python-bitstring.
 
