@@ -87,7 +87,5 @@ SHA256:61c79fb386a35150a1ef4fc746d762b6402cdb0a11c579b1201ec02ee6535dcf
 SHA256:bc5b64607121bc724dbd5d3d34faa09597f3da5bb5eec7e9e2d38ee66795bbb9
 SHA256:609d807185fb692db96b37b4287212a3897518d8ff67c50f231f29d5a492f81a
 
-
-
 EXTRA: With some files I have noticed that it takes too long to resolve the extraction of some data in PDB pathway data. For example, with file SHA256:64a5d4e837de315208093596e330104ef5b864fa5551b32acfd3467739a1caee. In other cases it only takes a little longer than usual. Patience! :D 
 Please, if you cross with a similar case you can report the HASH of the file to verify it and try to solve the problem.
