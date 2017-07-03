@@ -1,0 +1,93 @@
+This tool was tested with positive results against EXE, SYS, CPL, SCR and DLL files. This tool should always be accompanied by the file "packerdb.txt" to work. If you try to get information from a file that is not MZ and/or don't use the mentioned file together with the tool, you will see the following message: "It isn't a PE file or missing file packerdb.txt. Please, check it and try again."
+Please check accordingly.
+
+Common information for all files type tested are:
+# Filename: e.g.: <filename.exe/.sys/.cpl/.scr> 
+# Filepath: e.g.: </home/pistus/malc0de/filename>
+# Filesize: e.g.: 652288 bytes (0.622 Megabytes)
+# Mimetype: e.g.: application/x-dosexec
+# Filetype: e.g.: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+# DLL, EXE and SYS files check.
+# MD5, SHA1, SHA256 and SHA512 check.
+# SSDeep and ImpHASH check.
+# Signature: e.g.: MZ
+# Packer/Compiler: e.g.: [['Borland Delphi 3.0 (???)'], ['Borland Delphi 4.0'], ['Borland Delphi v3.0']]
+# TimeStamp: e.g.: 2014-04-11 11:15:03
+# EntryPoint: e.g.: 0x85abc
+# EntryPoint Address: e.g.: 0x0485abc
+# Section Information: e.g.: 
+	.data	   0x3000		0x38		512		0xc8000040	  Possible Malicious Action  MD5: 312651a6f76490d97aff95c683a68247
+
+# Import Address Table: e.g.: 
+   ntoskrnl.exe
+	0x12000 MmGetSystemRoutineAddress
+	0x12004 RtlInitUnicodeString
+	0x12008 IofCompleteRequest
+	0x1200c ProbeForWrite
+	0x12010 memcpy
+	0x12014 RtlAssert
+	0x12018 IoDeleteDevice
+	0x1201c IoCreateSymbolicLink
+	0x12020 IoCreateDevice
+	0x12024 KeTickCount
+	0x12028 RtlUnwind
+	0x1202c KeBugCheckEx
+
+The following information is about details for specific sections of the tool:
+# Properties Information, (metadata) tested in samples:
+SHA256:63e6b8136058d7a06dfff4034b4ab17a261cdf398e63868a601f77ddd1b32802
+SHA256:09851978f3645e1c73fffbb8a0ac94bf8d820b14ca27f0a476b9368d9d65d89a
+SHA256:4c3ac29e096e37af88fff057c85d41717cd67e237507729e9fd6889288c9729f
+SHA256:766e49811c0bb7cce217e72e73a6aa866c15de0ba11d7dda3bd7e9ec33ed6963
+SHA256:662d57b30f7ce6ef7946137f2a016ea47e71996a142a712ad5ef6a4802daae19
+
+# Classic Autorun.inf file / Startup Registry Keys, tested in samples:
+SHA256:dec0a801af2a6080425d710aaa073ba449c5056659690f9113af2273a576f045
+SHA256:d3ad32bcb255e56cd2a768b3cbf6bafda88233288fc6650d0dfa3810be75f74c
+SHA256:eb1079bdd96bc9cc19c38b76342113a09666aad47518ff1a7536eebff8aadb4a
+SHA256:f7e1cb9f307794648443497824a72af7c22a6fd77ad67698affc5979172750a2
+
+# URL/IP Information, tested in samples:
+SHA256:33dee66c9ba149aea74b1db74af2a5ef106c2f868595e507c4196c0f43a61f49
+SHA256:b28982f6ddfaaadb5312a12ec3bc35b3b5bbad41b9d64faeff6eacfb9822f5dd
+SHA256:34517ea4e90f3acd00c7ead62242b4c6d2a02721c60729c0a646e0b12c3df61c
+SHA256:c71be4e14689910d357919411c3e476b5e324ce19640685670d3cdf556c73f33 (IP)
+SHA256:a964f2a9946011b723f978c6379ed4b8b6bf1f4be94151ec31361e6e0f2def22
+
+# PDB full pathway data, tested in samples: e.g.: c:\users\admin\appdata\roaming\x86\objchk_win7_x86\i386\hookmgr.pdb
+SHA256:e547aeb12345c226d24406ba751e9cb0f95a98b167b8eee5bacc370fc09d56e3
+SHA256:196cec48f15ed4c91cf701da624ddf1f8ff907ecbddd1f64f207539530879d5b
+SHA256:c44f7a1c6a3ff9c94c3e314a82bfb8c404588d72a2bea2bb2ed21c4562500e7c
+SHA256:ae00a43e82eb8f010bee04e2183ac6a6c6a83b279202dd9d07a4ffd014ab3606
+SHA256:ba08c161a6ca5f8d0d8e48edab2570c6b0d0d1eeed9c7003592faa5d2405fc5f
+
+# Anti-Debugging Techniques Founded, tested in samples:
+SHA256:fc449e5e702d8c45f5ac7f4dfb8b8825e9b1ffa2175781eed21b1af2a3c5e3e9
+SHA256:484bbaef80deaf32e39bbe5cc242f320544cadbf47d7dedfcf47e910ce1899aa
+SHA256:52c8f2059324e5776fee2088442a3d5d585140b239db8f757057ccc036d71ee4
+SHA256:ceec7a77c12c11bc3c02c5d724db3e6ce4377a240773b5fef86b0bdd8ad84ef5
+SHA256:766e49811c0bb7cce217e72e73a6aa866c15de0ba11d7dda3bd7e9ec33ed6963
+
+# Anti-VirtualMachine Techniques Founded, tested in samples:
+SHA256:484bbaef80deaf32e39bbe5cc242f320544cadbf47d7dedfcf47e910ce1899aa
+SHA256:9cdd642477d43c9f3c09c5ba78389f037c6cd144d3ebc84a1ae293b1f3492ecf
+SHA256:791dc2b53aeeb04a75589700f42ee62e450c7e1f8b9ebcee607d358dce2a44bf
+SHA256:b41611f28a7452c05abf4b121767318b2034d7d046ed13f7ddd471646c26c155
+SHA256:f7e1cb9f307794648443497824a72af7c22a6fd77ad67698affc5979172750a2
+
+# Export Address Table, tested in samples:
+SHA256:09851978f3645e1c73fffbb8a0ac94bf8d820b14ca27f0a476b9368d9d65d89a
+SHA256:1654348c69f5de9cfca4f84c120aa9f153cb2fd21cb6add157fb12d28facaa7f
+SHA256:0657e93e28fcbdecc16fcb56aa54489b075e520677b4ae7bef38dde987aeceb4
+
+# Appended Data (Overlay), tested in samples:
+SHA256:dec0a801af2a6080425d710aaa073ba449c5056659690f9113af2273a576f045
+SHA256:379b2146c2834b65d39562e9909524daed388f2d8c1621d8cf4ed7fd916b31db
+SHA256:61c79fb386a35150a1ef4fc746d762b6402cdb0a11c579b1201ec02ee6535dcf
+SHA256:bc5b64607121bc724dbd5d3d34faa09597f3da5bb5eec7e9e2d38ee66795bbb9
+SHA256:609d807185fb692db96b37b4287212a3897518d8ff67c50f231f29d5a492f81a
+
+
+
+EXTRA: With some files I have noticed that it takes too long to resolve the extraction of some data in PDB pathway data. For example, with file SHA256:64a5d4e837de315208093596e330104ef5b864fa5551b32acfd3467739a1caee. In other cases it only takes a little longer than usual. Patience! :D 
+Please, if you cross with a similar case you can report the HASH of the file to verify it and try to solve the problem.

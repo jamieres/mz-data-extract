@@ -96,6 +96,21 @@
 => Add ImportHash (via FireEye: https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html)
 => Rewrited "Embedded File Information" code.
 
+2017/04/07 v1.0.6
+=> Delete PeHASH and TotalHASH information. Show two fuzzy-hash: SSDeep and ImportHASH.
+=> Fixed problem message for different format files (no-PE files). Error: 'DOS Header magic not found.'
+=> Add exception for files with different format (no-PE files).
+=> Rewrited Evasion Techniques code for "Advanced Technical Information" section.
+=> Add PDB pathways filename information.
+=> Add signatures for Anti-Debbugger Techniques.
+=> Add static registry information with detection of Autorun.inf files (USB propagation technique). 
+=> Delete "DLL Hooking Strings Founded", "Kernel Driver Check Founded" and "Anti-AV Tricks Founded". 
+=> Rewrite code structure.
+
+2017/06/27 v1.0.7
+=> Delete "Reference to Embedded File Information". I will rewrite regex data...
+=> Rewrite "PDB pathways filename information" and change section name for "PDB full pathway data".
+
 
 ISSUES:
 => Error in hex(pe.OPTIONAL_HEADER.BaseOfData) with some DLL files ==>> ea87c516a24127a2c80cdd4dba77192b

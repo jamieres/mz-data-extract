@@ -1,4 +1,5 @@
 pefile
+peutils
 bitstring
 argparse
 ssdeep
