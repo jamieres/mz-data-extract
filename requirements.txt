@@ -3,5 +3,7 @@ peutils
 bitstring
 argparse
 ssdeep
+sdhash
+fuzzyhashlib
 colorama
 
