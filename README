@@ -31,6 +31,7 @@ For install sdhash please visit the website https://pypi.python.org/pypi/sdhash 
    pip install Pillow
 
    ***** By default, SDHash option is disabled because the string is too long. If you want to know this data, please uncomment the line 83, or line "print Fore.WHITE + Style.NORMAL + "SDHash: %s" % Style.DIM + fuzzyhashlib.sdhash(data).hexdigest()" and save change.
+   ***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
  
 ## Bitstring
 For install Bitstrings you can download it from https://github.com/scott-griffiths/bitstring or run the command sudo apt-get install python-bitstring.
