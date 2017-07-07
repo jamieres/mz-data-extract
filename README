@@ -10,38 +10,46 @@ For know wath information you can obtain with this tools please read file "REPOR
 Usage syntaxis is: ./mzde.py [filepath]
 
 
-### Requires:
-First, remember run the command sudo apt-get update for update the operating system and then install following packages:
+** Requires:
+First, remember run the following commands:
+# apt-get update 
+# apt-get upgrade
+# apt-get install python-pip
 
-## PEfile => 
-For install PEfile (Python PE parsing module) you can be downloaded it from https://github.com/erocarrera/pefile or run the following command sudo apt-get install python-pefile. 
+Then just run "requirements.txt" file using pip:
+# pip install -r requirements.txt
 
-## SSDeep
-For install SSDeep you can download the package from http://ssdeep.sourceforge.net/ or run following command sudo pip install ssdeep.
-  -->> Maybe you need install pip: apt-get install python-pip.
+But if you prefer to install the packages separately, follow the instructions for each case:
 
-## FuzzyHashLib
-Install FuzzyHashLib for implement SDHash algoritm. Please visit https://pypi.python.org/pypi/fuzzyhashlib or run command sudo pip install fuzzyhashlib.
+* PEfile: https://github.com/erocarrera/pefile 
+# apt-get install python-pefile 
+
+* SSDeep: http://ssdeep.sourceforge.net
+# pip install ssdeep
+
+* FuzzyHashLib: https://pypi.python.org/pypi/fuzzyhashlib
+# pip install fuzzyhashlib
+
+   -->> This package is required for get SDHash data, but if you have any problem with package install process, can install SDHash separately:
+        * SDHash: https://pypi.python.org/pypi/sdhash
+        # pip install sdhash
+        
+             -->> Maybe you need install requires distributions for SDHash separately. Please use following commands:
+             # pip install NumPy or visit https://pypi.python.org/pypi/numpy
+             # pip install SciPy or visit https://pypi.python.org/pypi/scipy
+             # pip install Pillow
+
+***** By default, SDHash option is disabled because the string is too long. If you want to know this data, please uncomment the line 83, or line "print Fore.WHITE + Style.NORMAL + "SDHash: %s" % Style.DIM + fuzzyhashlib.sdhash(data).hexdigest()" and save change.
+***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
  
-## SDHash
-For install sdhash please visit the website https://pypi.python.org/pypi/sdhash or just install it via pip with command sudo pip install sdhash.
-   -->> Maybe you need install requires distributions for sdhash separately. Please use following commands:
-   pip install NumPy or visit https://pypi.python.org/pypi/numpy
-   pip install SciPy or visit https://pypi.python.org/pypi/scipy
-   pip install Pillow
+* Bitstring: https://github.com/scott-griffiths/bitstring
+# apt-get install python-bitstring
 
-   ***** By default, SDHash option is disabled because the string is too long. If you want to know this data, please uncomment the line 83, or line "print Fore.WHITE + Style.NORMAL + "SDHash: %s" % Style.DIM + fuzzyhashlib.sdhash(data).hexdigest()" and save change.
-   ***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
- 
-## Bitstring
-For install Bitstrings you can download it from https://github.com/scott-griffiths/bitstring or run the command sudo apt-get install python-bitstring.
+* argparser: https://code.google.com/archive/p/argparse/
+# apt-get install python-argparse
 
-## argparser
-Download it from https://code.google.com/archive/p/argparse/ or run the command sudo apt-get install python-argparse
-
-## colorama
-Download it from https://pypi.python.org/pypi/colorama/ or run the command sudo apt-get install python-colorama.
-
+* colorama: https://pypi.python.org/pypi/colorama/
+# apt-get install python-colorama
 
 DISCLAIMER: This tool was written for internal and personal use and tested, at the moment, just under Ubuntu 16.04. Please use the tool at your own risk.
 
