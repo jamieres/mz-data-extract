@@ -41,6 +41,7 @@ Maybe you need install requires distributions for SDHash separately. Please use 
   pip install Pillow
 
 ***** By default, SDHash option is disabled because the string is too long. If you want to know this data, please uncomment the line 83, or line "print Fore.WHITE + Style.NORMAL + "SDHash: %s" % Style.DIM + fuzzyhashlib.sdhash(data).hexdigest()" and save change.
+
 ***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
  
 * Bitstring: https://github.com/scott-griffiths/bitstring
