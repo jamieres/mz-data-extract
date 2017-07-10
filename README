@@ -35,10 +35,10 @@ This package is required for get SDHash data, but if you have any problem with p
     * SDHash: https://pypi.python.org/pypi/sdhash
       pip install sdhash
         
-      -->> Maybe you need install requires distributions for SDHash separately. Please use following commands:
-         pip install NumPy or visit https://pypi.python.org/pypi/numpy
-         pip install SciPy or visit https://pypi.python.org/pypi/scipy
-         pip install Pillow
+Maybe you need install requires distributions for SDHash separately. Please use following commands:
+  pip install NumPy or visit https://pypi.python.org/pypi/numpy
+  pip install SciPy or visit https://pypi.python.org/pypi/scipy
+  pip install Pillow
 
 ***** By default, SDHash option is disabled because the string is too long. If you want to know this data, please uncomment the line 83, or line "print Fore.WHITE + Style.NORMAL + "SDHash: %s" % Style.DIM + fuzzyhashlib.sdhash(data).hexdigest()" and save change.
 ***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
