@@ -44,8 +44,8 @@ Maybe you need install requires distributions for SDHash separately. Please use 
 
 ***** Fuzzy-Hash Algorithms just show data, this process don't compare files. 
  
-* Bitstring: https://github.com/scott-griffiths/bitstring
- apt-get install python-bitstring
+* Bitstring: https://pypi.python.org/pypi/bitstring/3.1.5
+ pip install bitstring
 
 * argparser: https://code.google.com/archive/p/argparse/
  apt-get install python-argparse
