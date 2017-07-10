@@ -10,8 +10,8 @@ For know wath information you can obtain with this tools please read file "REPOR
 
 Usage syntaxis is: ./mzde.py [filepath]
 
-** Requires:
--->> First, remember run the following commands:
+* Requires:
+  -->> First, remember run the following commands:
 # apt-get update 
 # apt-get upgrade
 # apt-get install python-pip
