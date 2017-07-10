@@ -7,23 +7,15 @@ __author__ = 'Jorge (Pistus) Mieres'
 __contact__ = 'jamieres-[at]-gmail-[dot]-com'
 
 """
-Requires:
-See README file.
-
-Changelog:
-2017/04/07 v1.0.6
-2017/06/27 v1.0.7
-
+Last changes:
 2017/07/07 v1.0.8
 => Add SdHash information (uncomment line option).
 => Rewrite Filetype and Mimetype data extraction.
 => Add, again, "Last Modified", "Last Accessed" and "Creation Time" data.
-
-** For complete reference about history of this tool please real file "CHANGELOG".
 """
 
 import sys,os,re,subprocess,datetime,time,shlex,stat,magic,colorama,hashlib,binascii,ssdeep,nilsimsa,fuzzyhashlib,bz2,string,bitstring,struct,pefile,peutils,argparse
-from colorama import Fore, Back, Style, init
+from colorama import Fore, Style, init
 from pefile import PE, PEFormatError
 from time import gmtime, strftime
 from hashlib import sha256
