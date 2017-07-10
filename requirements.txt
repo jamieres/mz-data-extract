@@ -6,5 +6,5 @@ ssdeep
 sdhash
 fuzzyhashlib
 colorama
-magic
+python-magic
 
