@@ -27,11 +27,11 @@ init()
 try:
   filename = sys.argv[1]
   pe = pefile.PE(filename)
-  packer = peutils.SignatureDatabase('packerdb.txt')
+  packer = peutils.SignatureDatabase('packerdb')
   fdata = magic.Magic(mime=True, uncompress=True)
 
 except:
-        print(Fore.RED + "It isn't a PE file or missing file packerdb.txt. Please, check it and try again.")
+        print(Fore.RED + "It isn't a PE file or missing file packerdb. Please, check it and try again.")
         sys.exit(1)
 
 else:
@@ -104,7 +104,7 @@ if __name__ == "__main__":
   header = f.read(0x1C)
   parseheader(header)
 
-packer = peutils.SignatureDatabase('packerdb.txt')
+packer = peutils.SignatureDatabase('packerdb')
 matches = packer.match_all(pe, ep_only = True)
 print Fore.WHITE + Style.NORMAL + "  Packer/Compiler: " + Style.DIM + str(matches)
 
