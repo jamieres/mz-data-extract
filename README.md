@@ -11,28 +11,28 @@ For know wath information you can obtain with this tools please read file "REPOR
 Usage syntaxis is: ./mzde.py [filepath]
 
 * Requires:
-  -->> First, remember run the following commands:
-# apt-get update 
-# apt-get upgrade
-# apt-get install python-pip
+First, remember run the following commands:
+ apt-get update 
+ apt-get upgrade
+ apt-get install python-pip
 
-Then just run "requirements.txt" file using the command -->> pip install -r requirements.txt
+Then just run "requirements.txt" file using the command pip install -r requirements.txt
 
 But if you prefer to install the packages separately, follow the instructions for each case:
 
 * PEfile: https://github.com/erocarrera/pefile 
-# apt-get install python-pefile 
+ apt-get install python-pefile 
 
 * Magic: https://pypi.python.org/pypi/python-magic
-# pip install python-magic
+ pip install python-magic
 
 * SSDeep: http://ssdeep.sourceforge.net
-# pip install ssdeep
+ pip install ssdeep
 
 * FuzzyHashLib: https://pypi.python.org/pypi/fuzzyhashlib
-# pip install fuzzyhashlib
+ pip install fuzzyhashlib
 
-  -->> This package is required for get SDHash data, but if you have any problem with package install process, can install SDHash separately:
+This package is required for get SDHash data, but if you have any problem with package install process, can install SDHash separately:
     * SDHash: https://pypi.python.org/pypi/sdhash
     # pip install sdhash
         
