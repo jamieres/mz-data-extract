@@ -4,7 +4,7 @@ Please check accordingly.
 Common information for all files type tested are:
 # Filename: e.g.: <filename.exe/.sys/.cpl/.scr> 
 # Filepath: e.g.: </home/pistus/malc0de/filename>
-# Filesize: e.g.: 652288 bytes (0.622 Megabytes)
+# Filesize: e.g.: 652288 bytes - 0.622 Megabytes -
 # Mimetype: e.g.: application/x-dosexec
 # Filetype: e.g.: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
 # Last Modified: e.g.: 04/11/2014 12:15:03 PM - Fri Apr 11 12:15:03 2014 - 
@@ -15,7 +15,7 @@ Common information for all files type tested are:
 # SSDeep, ImpHASH and SDHash check.
 # Signature: e.g.: MZ
 # Packer/Compiler: e.g.: [['Borland Delphi 3.0 (???)'], ['Borland Delphi 4.0'], ['Borland Delphi v3.0']]
-# TimeStamp: e.g.: 2014-04-11 11:15:03
+# TimeStamp: e.g.: 2016-05-27 07:05:09  - 1464357909 - 
 # EntryPoint: e.g.: 0x85abc
 # EntryPoint Address: e.g.: 0x0485abc
 # Section Information: e.g.: 
