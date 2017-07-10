@@ -1,3 +1,4 @@
+# MZ-Data-Extract
 MZ-Data-Extract is a simple tool that you can use for collect relevant data of Portable Executable (PE) files that can be used for Intel during a line of research related with malware. All information collected can be used for Intel purposes. It support PE 32bits and 64bits for executables files type EXE, DLL, SYS, SCR, CPL, MSI, COM and at the moment just work in *NIX-Based distros.
 
 This tool should always be accompanied by the file "packerdb.txt" to work. If you try to get information from a file that is not MZ and/or don't use the mentioned file together with the tool, you will see the following message in red color: "It isn't a PE file or missing file packerdb.txt. Please, check it and try again."
@@ -10,13 +11,12 @@ For know wath information you can obtain with this tools please read file "REPOR
 Usage syntaxis is: ./mzde.py [filepath]
 
 ** Requires:
-First, remember run the following commands:
+-->> First, remember run the following commands:
 # apt-get update 
 # apt-get upgrade
 # apt-get install python-pip
 
-Then just run "requirements.txt" file using pip:
-# pip install -r requirements.txt
+Then just run "requirements.txt" file using the command -->> pip install -r requirements.txt
 
 But if you prefer to install the packages separately, follow the instructions for each case:
 
