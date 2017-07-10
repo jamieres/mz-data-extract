@@ -1,0 +1,80 @@
+
+### File Characterization
+-------------------------
+  Filename: Cobranca_AMIL_PDF.cpl
+  Filepath: /home/rschintel/Downloads/Cobranca_AMIL_PDF.cpl
+  Filesize: 652288 bytes  - 0.622 Megabytes -
+  Filetype: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+  Mimetype: application/x-dosexec
+
+  Last Modified: 04/11/2014 12:15:03 PM - Fri Apr 11 12:15:03 2014 - 
+  Last Accessed: 07/09/2017 08:16:27 PM - Sun Jul  9 20:16:27 2017 - 
+  Creation Time: 07/06/2017 09:53:02 AM - Thu Jul  6 09:53:02 2017 - 
+
+  DLL file (Dynamic-Link Library):  True
+  EXE file (Executable):  False
+  SYS file (System):  False
+
+  ## Fingerprint Information
+  MD5: dba4cc389b9ec48a592602282c8024c0
+  Sha1: 68314680dfb757487af7dc1bbd61359df5aadc4a
+  Sha256: 09851978f3645e1c73fffbb8a0ac94bf8d820b14ca27f0a476b9368d9d65d89a
+  Sha512: 862de90da5c98c4aacbaf523beda4a1a363b0ab7c919356b72593d97145ee81a45ad6af65c3e4999deac065d95350139217bd6808330640300b5af001f22a2b7
+
+    # Fuzzy-Hash Algorithm
+    SSDeep: 12288:YyFE7GBIodjPouHOvAT+amTOZ+7cna6h0hBz0SyeIi41fnwwS:V8MjPouuvATfmTg+7B6h0/zieIi4P
+    ImpHASH: 91c2e5d87bb3122a54ec2d019147538d
+
+  ## Header & Packer Technique
+  Signature: MZ
+  Packer/Compiler: [['Borland Delphi 3.0 (???)'], ['Borland Delphi 4.0'], ['Borland Delphi v3.0']]
+
+
+### Advanced Information for Intel
+----------------------------------
+  TimeStamp: 2014-04-11 11:15:03  - 1397240103 - 
+  EntryPoint: 0x85abc
+  EntryPoint Address: 0x0485abc
+
+  ## Properties Information
+  LegalCopyright: Macromedia
+  InternalName: Macromedia
+  FileVersion: 2.1.4567.3
+  CompanyName: Macromedia
+  LegalTrademarks: Macromedia
+  Comments: Macromedia
+  ProductName: Macromedia
+  ProductVersion: 1.0.0.9
+  FileDescription: Acrobalt
+  OriginalFilename: Macromedia
+
+  ## Classic Autorun.inf file Data
+
+  ## URL/IP Information
+  http://dekafotos01.url.ph/index.php
+  http://bit.ly/segunda2612
+
+  ## PDB full pathway data
+
+
+### Detected possible Evasion-Techniques/Maneuvers commonly used by malware
+---------------------------------------------------------------------------
+  ## Anti-Debugging Techniques Founded
+  0x48f804 GetTickCount
+  0x48f808 QueryPerformanceCounter
+  0x48f86c UnhandledExceptionFilter
+  0x48f86c UnhandledExceptionFilter
+  0x48f9d4 GetWindowThreadProcessId
+  0x48fa90 FindWindowA
+  0x48fc6c QueryPerformanceCounter
+  0x48fcac GetTickCount
+  0x48fccc GetLocalTime
+  0x48fd3c CloseHandle
+
+  ## Anti-VirtualMachine Techniques Founded
+
+
+  ## Sections Information
+	============================================================================================================
+	Section	   VirtualAddress	VirtualSize	SizeofRawData	Characteristics	  Suspicious
+	============================================================================================================
