@@ -116,6 +116,7 @@
 => Add SdHash information (uncomment line option).
 => Rewrite Filetype and Mimetype data extraction.
 => Add, again, "Last Modified", "Last Accessed" and "Creation Time" data.
+=> Add decimal data for TimeStamp.
 
 ISSUES:
 => Error in hex(pe.OPTIONAL_HEADER.BaseOfData) with some DLL files ==>> ea87c516a24127a2c80cdd4dba77192b
