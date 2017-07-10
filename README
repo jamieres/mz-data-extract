@@ -25,7 +25,7 @@ But if you prefer to install the packages separately, follow the instructions fo
 * Magic: https://pypi.python.org/pypi/python-magic
  pip install python-magic
 
-* SSDeep: http://ssdeep.sourceforge.net
+* SSDeep: https://pypi.python.org/pypi/ssdeep/3.2
  pip install ssdeep
 
 * FuzzyHashLib: https://pypi.python.org/pypi/fuzzyhashlib
